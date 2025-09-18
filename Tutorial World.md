@@ -1,3 +1,4 @@
+
 ## The rfl tactic
 
 Nesse nível aprendemos como usar a tática `rfl`, a qual chamamos nas aulas de `Refl` (Reflexividade)
@@ -13,7 +14,7 @@ Provando que `37x + q = 37x + q`
 Traduzindo para a linguagem que estamos usando nas aulas:
 
 ```
-Θ Demonstre: (∀x : Nat)(∀q : Nat)[37x + q = 37x + q]
+Θ Demonstre: (∀x : Int)(∀q : Int)[37x + q = 37x + q]
 
 Demons.
 
@@ -23,6 +24,7 @@ Calculamos:
 		= 37x + q
 ∎
 ```
+
 ## The rw tactic
 
 Nesse nível aprendemos como usar a tática `rw`, a qual chamamos nas aulas de `Subst`
@@ -78,11 +80,11 @@ rfl
 Ou com nossa linguagem:
 
 ```
-Θ Demonstre: (∀a, b, c : Nat)[a + (b + 0) + (c + 0) = a + b + c]
+Θ Demonstre: (∀a, b, c : Int)[a + (b + 0) + (c + 0) = a + b + c]
 
 Demons.
 
-Sejam a, b, c : Nat
+Sejam a, b, c : Int
 Calculamos: 
 a + (b + 0) + (c + 0)
 					= a + b + (c + 0) [(+).1 b]
@@ -120,8 +122,8 @@ rfl
 Ou com nossa linguagem:
 
 ```
-Θ Demonstre: (∀n : Nat)[S n = n + 1]
-Seja n : Nat
+Θ Demonstre: (∀n : Int)[S n = n + 1]
+Seja n : Int
 Calculamos 
 n + 12
      ≡ n + S 0

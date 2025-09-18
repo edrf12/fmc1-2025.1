@@ -22,18 +22,6 @@
             }
           },
           {
-            "id": "32711477e019b262",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.9.10"
-              },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.9.10"
-            }
-          },
-          {
             "id": "2ad3da299fc75a28",
             "type": "leaf",
             "state": {
@@ -47,8 +35,7 @@
               "title": "Tutorial World"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -197,9 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2ad3da299fc75a28",
+  "active": "c14597f9eae04688",
   "lastOpenFiles": [
-    "nng4.json",
-    "Tutorial World.md"
+    "Addition World.md",
+    "Tutorial World.md",
+    "nng4.json"
   ]
 }
